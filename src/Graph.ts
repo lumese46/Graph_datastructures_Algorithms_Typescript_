@@ -3,13 +3,13 @@
 // CONSTRUCTION: with no parameters.
 //
 // ******************PUBLIC OPERATIONS**********************
-// void addEdge( String v, String w, double cvw )
+// 
 //                              --> Add additional edge
-// void printPath( String w )   --> Print path after alg is run
-// void unweighted( String s )  --> Single-source unweighted
-// void dijkstra( String s )    --> Single-source weighted
-// void negative( String s )    --> Single-source negative weighted
-// void acyclic( String s )     --> Single-source acyclic
+//  printPath(  w :string )   --> Print path after alg is run
+// unweighted( s : string )  --> Single-source unweighted
+//  dijkstra(s : string )    --> Single-source weighted
+// negative( s : string )    --> Single-source negative weighted
+// acyclic( s : string)     --> Single-source acyclic
 // ******************ERRORS*********************************
 // Some error checking is performed to make sure graph is ok,
 // and to make sure graph satisfies properties needed by each
